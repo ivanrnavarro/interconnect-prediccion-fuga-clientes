@@ -41,6 +41,17 @@ Modelo elegido: **LightGBM** con ajuste de pesos para la clase minoritaria y umb
 - De cada 100 clientes que van a cancelar, el modelo detecta 89 a tiempo para ofrecerles una promoción.
 - Si se contacta a la mitad de los clientes, el modelo permite alcanzar cerca del 92 % de los que realmente se van, frente al 50 % de una selección aleatoria.
 
+## Gráficas
+
+**Tasa de fuga por tipo de contrato, método de pago y servicio**
+![Tasa de fuga por categoría](images/tasa_fuga_por_categoria.png)
+
+**Curva ROC y matriz de confusión en el conjunto de prueba (umbral 0,36)**
+![Curva ROC y matriz de confusión](images/curva_roc_matriz_confusion.png)
+
+**Variables más importantes del modelo**
+![Importancia de variables](images/importancia_variables.png)
+
 ## Conclusiones para el negocio
 
 - Las variables más influyentes son la **antigüedad del cliente**, el **tipo de contrato** y los **cargos facturados**.
